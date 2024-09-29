@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #89c558; /* Темный фон */
+    color: #FFFFFF; /* Белый текст */
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    max-width: 360px;
+    padding: 20px;
+    background-color: #ce2171;
+    
+}
+.text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} 
+.option-text{
+    font-size: 16px;
+    text-align: left;
+}
+.big-text{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    opacity: 1;
+}
+.mini-text{
+    opacity: 0.3;
+}
+.button{
+    display: inline-block;
+    width: 80%;
+    margin: 20px;
+    padding: 12px;
+    border-radius: 32px;
+    border: none;
+    background-color: #404040;
+    text-align: center;
+}
+.Addition1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+.Addition2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+/*
+var(--tg-theme-bg-color)
+var(--tg-theme-text-color)
+var(--tg-theme-hint-color)
+var(--tg-theme-button-color)
+var(--tg-theme-button-text-color)
+*/
