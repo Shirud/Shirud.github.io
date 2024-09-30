@@ -11,6 +11,7 @@ body {
 }
 
 .main{
+    translate: 100vh;
     max-width: 360px;
     padding: 20px;
     background-color: #0e0e0e;
