@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .main{
@@ -14,6 +15,7 @@ body {
     padding: 20px;
     background-color: #0e0e0e;
     height: 100vh;
+    overflow: hidden;
 }
 .text{
     font-size: 16px;
