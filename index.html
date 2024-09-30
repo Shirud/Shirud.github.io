@@ -1,8 +1,8 @@
 <!doctype html>
  <html lang="en-US">
  <head>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <meta charset = "utf-8">
 </head>
 <body>
@@ -10,9 +10,8 @@
         <img src = "Media\files.png" width="64px" height="64px">
         <div class = "big-text">AedesFiles </div>
         <div class = "text"> ⚙️ Этот бот позволяет преобразовать видео большего размера и выбрать нужный момент.  </div>
-        <div class = "line"></div>
-        <div class = "button">Выбрать видео</div> 
-        <div class = "line"></div>
+        <label for="video-upload" class="button">Выбрать видео</label>
+        <input type="file" id="video-upload" accept="video/*" class="visually-hidden" aria-label="Загрузить видео файл" hidden>
         <div class = "Additions">
             <div class = "Addition1">
                 <img src = "Media\Icon1.png" width="32px" height="32px"> 
